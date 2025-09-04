@@ -1,9 +1,9 @@
 #include <stdio.h>
-#define PI 3.14159
+#define PI 3.14159  //define pi com esse valor
 
 int main()
 {
-    printf("Hello World");
+    printf("Hello World");    //mostra hello world
     
     //caulculo de um circulo
     float raio, area;
