@@ -3,11 +3,11 @@
 
 int main()
 {
-    printf("Digite um valor para o raio: ");
+    printf("Digite um valor para o raio: "); //mostra na tela a mensagem
     //caulculo de um circulo
-    float raio, area;
-    scanf("%f",&raio);
-    area = PI * raio * raio;
-    printf("\narea = %f", area);
+    float raio, area; //pode decimal
+    scanf("%f",&raio); //pede que o usuario escrevaa
+    area = PI * raio * raio;    
+    printf("\narea = %f", area);//mostra o resultado
     return 0;
 }
